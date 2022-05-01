@@ -1,0 +1,26 @@
+.Low {
+  background-color: rgba(30, 255, 0, 0.514);
+  order: 3;
+}
+.Medium {
+  order: 2;
+  background-color: rgba(255, 255, 0, 0.438);
+}
+.High {
+  order: 1;
+  background-color: rgba(255, 0, 0, 0.521);
+}
+.button__div {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  row-gap: 10px;
+  column-gap: 5px;
+}
+.Low,
+.Medium,
+.High {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
